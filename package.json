@@ -10,7 +10,7 @@
     "test:mocha": "env TS_NODE_COMPILER_OPTIONS='{\"jsx\": \"react\" }' ./node_modules/.bin/mocha -r ts-node/register -r @babel/register -r testHelper/mocha.ts src/**/*.spec.tsx --recursive --timeout 5000"
   },
   "dependencies": {
-    "@nypl/design-system-react-components": "0.25.3",
+    "@nypl/design-system-react-components": "^0.25.3",
     "@nypl/dgx-react-footer": "0.5.7",
     "@types/enzyme": "^3.10.8",
     "@types/enzyme-adapter-react-16": "^1.0.6",

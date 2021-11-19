@@ -1329,7 +1329,7 @@
   "resolved" "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz"
   "version" "1.1.3"
 
-"@nypl/design-system-react-components@0.25.3":
+"@nypl/design-system-react-components@^0.25.3":
   "integrity" "sha512-mBdGmKglXNOe5l4lxSjB+VcY4QSbmPCoNlR8mXqEaKWxd2/nfl2U0TVpjU/RxtnVVvIGh4A2W9FsJaixmdBVsQ=="
   "resolved" "https://registry.npmjs.org/@nypl/design-system-react-components/-/design-system-react-components-0.25.3.tgz"
   "version" "0.25.3"
