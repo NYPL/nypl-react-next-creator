@@ -9,7 +9,7 @@ interface SampleComponentProps {}
  * Placeholder component that renders "Hello World!"
  */
 const SampleComponent: React.FC<SampleComponentProps> = () => {
-  return <DS.Heading level={2}>Hello World!</DS.Heading>;
+  return <DS.Heading level={DS.HeadingLevels.Two}>Hello World!</DS.Heading>;
 };
 
 {
