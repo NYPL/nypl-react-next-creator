@@ -1,5 +1,5 @@
 import React from "react";
-import * as DS from "@nypl/design-system-react-components";
+import { Heading } from "@nypl/design-system-react-components";
 
 // If your components needs props, declare them in this interface.
 interface SampleComponentProps {}
@@ -9,7 +9,7 @@ interface SampleComponentProps {}
  * Placeholder component that renders "Hello World!"
  */
 const SampleComponent: React.FC<SampleComponentProps> = () => {
-  return <DS.Heading level={DS.HeadingLevels.Two}>Hello World!</DS.Heading>;
+  return <Heading level="two">Hello World!</Heading>;
 };
 
 {
