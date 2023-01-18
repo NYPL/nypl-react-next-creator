@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "@nypl/dgx-react-footer";
+import { DSProvider, Footer } from "@nypl/design-system-react-components";
 import SampleComponent from "../src/SampleComponent";
 
 const Home = () => {
@@ -18,11 +18,13 @@ const Home = () => {
           <script type="text/javascript" src="https://header.nypl.org/dgx-header.min.js?skipNav=mainContent" async></script>
       </div>
 
-      {/* Your component(s) here */}
-      <SampleComponent />
-      
-      {/* This will render the NYPL Footer. */}
-      <Footer />
+      <DSProvider>
+        {/* Your component(s) here */}
+        <SampleComponent />
+        
+        {/* This will render the NYPL Footer. */}
+        <Footer />
+      </DSProvider>
     </div>
   );
 };

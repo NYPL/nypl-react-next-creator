@@ -3,7 +3,7 @@
 This repo sets up a skeleton [Nextjs](https://nextjs.org/) application with NYPL-related npm packages:
 
 * NYPL Design System
-  * [Storybook](https://nypl.github.io/nypl-design-system/storybook-static/?path=/story/introduction--page)
+  * [Storybook](https://nypl.github.io/nypl-design-system/reservoir/v1/?path=/story/welcome--page)
   * [Github repo](https://github.com/NYPL/nypl-design-system#readme)
 * NYPL Header
   * No need to modify
@@ -26,12 +26,15 @@ The main entry file is `pages/index.tsx` but components can be organized in `src
 
 ## Running the App
 
-Prerequisites: `node` (v10 minimum) and `npm` (v6 minimum) or `yarn` (v1.20 minimum)
-[Instructions to install node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+Last tested with Node v14.20.1 and npm v6.14.17.
 
-Install the app using `npm install` or `yarn install`
+If using Node directly, please install the appropriate version of Node and npm. [Instructions to install node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-Make sure the app runs locally in development mode with `npm run dev` or `yarn dev`, as well as in production mode with `npm run build` and `npm start`, or `yarn build` and `yarn start`.
+If using nvm, follow the [install instruction](https://github.com/nvm-sh/nvm#installing-and-updating) and install Node version 14. Then run `nvm use` at the root of this project to use the correct version of Node.
+
+Install the dependencies using `npm install`.
+
+Make sure the app runs locally in development mode with `npm run dev` as well as in production mode with `npm run build` and `npm start`.
 
 ## Unit Testing
 
