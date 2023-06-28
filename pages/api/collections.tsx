@@ -48,7 +48,7 @@ async function CollectionsAPI(req: NextApiRequest, res: NextApiResponse) {
   // The main Digital Collections API endpoint. Documentation can be found
   // here: http://api.repo.nypl.org/
   const apiURL =
-    "http://api.repo.nypl.org/api/v1/items/search?publicDomainOnly=true";
+    "http://api.repo.nypl.org/api/v2/items/search?publicDomainOnly=true";
   // Make sure you get an API token from:
   // http://api.repo.nypl.org/
   // and set it as an environment variable.
