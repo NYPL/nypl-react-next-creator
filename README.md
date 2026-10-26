@@ -1,3 +1,7 @@
+# Deprecated
+
+As of October 2026, this repo is deprecated and not in used. Please reach out to anyone on the Institutional Services Web team for more information.
+
 # NYPL Digital Collections Search app
 
 This repo sets up a skeleton [Nextjs](https://nextjs.org/) application with NYPL-related npm packages:
